@@ -1,5 +1,7 @@
 # Helsinki Transit System - Real-Time Vehicle Tracking with Redis
 
+https://www.youtube.com/watch?v=bjeUysXyzvs
+
 This project publishes realtime locations of municipal transport vehicles in the Helsinki metro area to a web UI. Although Helsinki offers a great [realtime API](https://digitransit.fi/en/developers/apis/4-realtime-api/vehicle-positions/) for developers, there is no such site that makes this data generally available to the public.<sup>1</sup>
 
 This is an awesome service that Helsinki provides. Given that HSL publishes on the order of ~50 million updates per day, I felt that Redis would be a great tool to use given the robustness of the TimeSeries Module to quickly aggregate tens of thousands of datapoints, and the Redis Gears module's ability to run batch jobs off the main thread.
